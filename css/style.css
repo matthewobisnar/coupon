@@ -3367,6 +3367,14 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none; }
 
+.nav-scroller {
+  background: #f61e4d;
+}
+
+.nav-scroller a {
+  color:white !important;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem; }
@@ -8353,4 +8361,13 @@ a[data-toggle="collapse"] {
 
 .border-custom-right {
     border-right: 1px solid #f8f9fa !important;
+}
+
+.navigator{
+  background: #e41f4a;
+  color:white;
+}
+
+.navbar-main{
+  border-bottom: #f8f9fa solid 1px;
 }
