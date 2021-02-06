@@ -8422,3 +8422,19 @@ a[data-toggle="collapse"] {
   border: 0;
   color: black;
 }
+
+.form-group-ud {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-right: 0px;
+}
+
+.form-input-ud {
+  height: 40px !important;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card-footer {
+  border-top: 1px solid rgb(242 242 242) !important;
+}
