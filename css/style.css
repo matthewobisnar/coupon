@@ -8195,6 +8195,9 @@ h1, h2, h3, h4, h5,
   .heading-section small {
     font-size: 18px; }
 
+.red-color { 
+  color: #f61e4d
+} 
 .img {
   background-size: cover;
   background-repeat: no-repeat;
