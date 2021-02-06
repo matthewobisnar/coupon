@@ -66,6 +66,13 @@ body {
   background: #f8f9fa;
 }
 
+.product-title {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #000;
+  font-size: 1.43em;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -8395,6 +8402,7 @@ a[data-toggle="collapse"] {
 
 .votes_input input[type=radio] {
   display: none;
+  z-index: 100;
 }
 .votes_input .label {
   display: inline-block;
@@ -8407,4 +8415,10 @@ a[data-toggle="collapse"] {
 
 .downvote:checked + .label {
   color: #ff7a3b;
+}
+
+.list-group-item-custom {
+  background: #ffffff00;
+  border: 0;
+  color: black;
 }
