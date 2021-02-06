@@ -8204,6 +8204,7 @@ h1, h2, h3, h4, h5,
   width: 100%; }
 
 #sidebar {
+  margin-top:40px;
   min-width: 240px;
   max-width: 240px;
   color: #fff;
@@ -8212,7 +8213,7 @@ h1, h2, h3, h4, h5,
   -o-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
-  z-index: 1000;
+  z-index: 0;
   border-left: 1px solid rgba(0, 0, 0, 0.05); }
   #sidebar .h6 {
     color: #fff; }
