@@ -8198,6 +8198,23 @@ h1, h2, h3, h4, h5,
 .red-color { 
   color: #f61e4d
 } 
+
+.price span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-orange {
+  color: #f57224 !important;
+}
+
+.text-green {
+  color: #218437 !important; 
+}
+
+.line-through {
+  text-decoration: line-through;
+}
 .img {
   background-size: cover;
   background-repeat: no-repeat;
@@ -8374,4 +8391,20 @@ a[data-toggle="collapse"] {
 
 .navbar-main{
   border-bottom: #f8f9fa solid 1px;
+}
+
+.votes_input input[type=radio] {
+  display: none;
+}
+.votes_input .label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px;
+}
+.upvote:checked + .label {
+  color: #33a54d;
+}
+
+.downvote:checked + .label {
+  color: #ff7a3b;
 }
