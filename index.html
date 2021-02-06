@@ -35,9 +35,8 @@
       <div class="container">
         <nav class="nav nav-underline px-3" aria-label="Secondary navigation">
           <a class="nav-link active" aria-current="page" href="#">Account</a>
-          <a class="nav-link" href="#">Friends</a>
-          <a class="nav-link" href="#">Explore</a>
-          <a class="nav-link" href="#">Suggestions</a>
+          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="#">Sitemap</a>
         </nav>
       </div>
     </div>
@@ -48,8 +47,8 @@
             <h5>Categories</h5>
             <ul class="list-unstyled components mb-5">
               <li>
-                <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Online Stores</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu1">
+                <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Online Stores</a>
+                <ul class="collapse show list-unstyled" id="pageSubmenu1">
                   <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Lazada</a></li>
                   <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Shopee</a></li>
                   <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Ebay</a></li>
@@ -117,16 +116,37 @@
           <!--end breadcrumbs-->
           <div class="card rounded-0 border-0">
             <div class="card-body">
-              <form>
-                <div class="input-group my-2">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text form-group-ud bg-white md-24 material-icons">
-                      search
-                    </span>
-                  </div>
-                  <input type="text" class="form-control form-input-ud border" placeholder="Search Names..." aria-describedby="search">
+              <div class="row">
+
+                <div class="col-md-7">
+                  <form>
+                    <div class="input-group my-2">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text form-group-ud bg-white md-24 material-icons">
+                          search
+                        </span>
+                      </div>
+                      <input type="text" class="form-control form-input-ud border" placeholder="Search Names..." aria-describedby="search">
+                    </div>
+                  </form>
                 </div>
-              </form>
+                <div class="col-md-4">
+                  <form>
+                    <div class="input-group my-2">
+                      <input type="date" class="form-control rounded-pill form-input-ud border" aria-describedby="search">
+                    </div>
+                  </form>
+              </div>
+              <div class="col-md-1">
+                <div class="input-group my-2">
+                  <button class="btn border btn-sm rounded-circle">
+                    <span class="material-icons">
+                      clear
+                    </span>
+                  </button>
+                </div>
+              </div>
+              </div>
             </div>
             <div class="card-footer d-flex">
               <span class="mt-2">
