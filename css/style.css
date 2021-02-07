@@ -8400,15 +8400,31 @@ a[data-toggle="collapse"] {
   border-bottom: #f8f9fa solid 1px;
 }
 
-.votes_input input[type=radio] {
+.bookmark-custom {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  z-index: 1;
+  vertical-align: middle;
+  display: flex;
+}
+
+.bookmark-custom input[type=checkbox], .votes_input input[type=radio] {
   display: none;
   z-index: 100;
 }
-.votes_input .label {
+
+
+.bookmark-custom .label, .votes_input .label {
   display: inline-block;
   cursor: pointer;
   padding: 3px;
 }
+
+.bookmark-input:checked + .label {
+  color:var(--yellow);
+}
+
 .upvote:checked + .label {
   color: #33a54d;
 }
